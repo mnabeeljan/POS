@@ -1,0 +1,498 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+
+
+/* ... other styles ... */
+
+/* Styling for the menu items list */
+.menu-items-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-items-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0 0;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+}
+
+.menu-items-list li:hover {
+  background-color: #8181F2;
+}
+
+.menu-item {
+  margin-top: 0;
+  font-size: larger;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  color: black;
+}
+
+/* ... other styles ... */
+
+
+
+
+
+
+  .container {
+   display: block;
+    width: 100%;
+    height: 100vh;
+  }
+
+    /* Background gradient for the header */
+  .header {
+    background: #f7f7f7;
+    border: none;
+  }
+
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    /* border: 2px solid black; */
+  }
+  
+  .posicon {
+    margin: 5px 15px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nav-text {
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+
+  /* Styling for the menu icon */
+  .menuicon {
+    margin-left: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+  }
+  
+  .add {
+    width: 40px;
+    height: 40px;
+    /* margin-top: 10px; */
+    margin-left: 50px;
+    margin-right: 20px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    background-color:#5684F0;
+    position: relative;
+  }
+  
+  .iadd {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: aliceblue; */
+  }
+  
+  .addicon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  
+  .right-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .round-pos {
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #5684F0;
+    margin-right: 20px;
+  }
+  
+  .full-screen {
+    width: 25px;
+    height: 25px;
+  }
+
+  .arrow-down{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .parent-container {
+    display: flex;
+  }
+
+  .left-container {
+    width: 250px;
+    background: 	#F7F7FA;
+    padding: 10px;
+  }
+
+  /* Styling for the search input */
+  #searchInput {
+    /* width: 100%; */
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+  }
+
+  /* Styling for the card-like menu items */
+  .menu-item-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 0;
+    cursor: pointer;
+    border-radius: 5px;  
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-item-container:hover{
+    background-color: #8181F2;
+  }
+  
+  .menu-item {
+    margin-top: 45px;
+    font-size: larger;
+    cursor: pointer;
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .menu-item:hover {
+    color: black;
+    font-weight: bold;
+  }
+
+  .menu-item-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  
+  /* Styling for the right-container */
+  .right-container {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styling for cards */
+  .cards{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin: 10px; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+  
+  }
+
+  /* Styling for the metric cards */
+  .metric-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+
+
+  /* Styling for the sales metric */
+  .metric-card.sales {
+    background-color: #827EF4;
+      color: #fff;
+    }
+
+  /* Styling for the purchases metric */
+  .metric-card.purchases {
+    background-color: #6ED5A1;
+    color: #fff;
+  }
+
+  .metric-card.returns{
+    background-color: #67c6f9;
+    color: #fff;
+  }
+
+  .purchases-returns{
+    background-color: #F19D73;
+    color: #fff;
+
+  }
+
+  .total-sales{
+    background-color: #8F71D3 ;
+    color: #fff;
+  }
+
+  .sales-rec{
+    background-color: #EC5EA7  ;
+    color: #fff;
+  }
+
+  .total-purchases{
+    background-color:#92F3F2   ;
+    color: #fff;
+  }
+
+  .total-expense{
+    background-color: #F53E3E ;
+    color: #fff;
+  }
+
+  /* Styling for the sales and purchases text */
+  .metric-card p {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  /* Styling for the currency symbol */
+  .metric-card .currency {
+    font-size: 28px;
+  }
+
+  /* Styling for the sales and purchases labels */
+  .metric-card .label {
+    font-size: 20px;
+    opacity: 0.9;
+  }
+
+  .imgimg{
+    width:800px;
+    height: 400px;
+  }
+
+
+  .chart-container {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  /* Styling for the bars */
+  .bar {
+    background-color: #0080b3;
+    margin-bottom: 5px;
+    transition: height 0.5s ease;
+  }
+
+  /* Styling for the labels */
+  .label {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .recent-sales-container {
+    margin: 20px auto;
+    width: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* overflow: hidden; */
+    height: 300px;
+  }
+
+  table {
+    width: 95%;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #555;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 22px;
+  }
+
+  td {
+    color: #333;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 400px){
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    .container {
+     display: block;
+      width: 100%;
+      height: 100vh;
+    }
+  
+      /* Background gradient for the header */
+    .header {
+      background: #f7f7f7;
+      border: none;
+    }
+  
+  
+    .navbar {
+      display: flex;
+      align-items: left;
+      height: auto;
+      /* border: 2px solid black; */
+    }
+    
+    .posicon {
+      margin: 5px 5px;
+      width: 20px;
+      height: 20px;
+    }
+    
+    .nav-text {
+      margin: 5px 0px;
+      font-size: 10px;
+      font-weight:400;
+    }
+    
+  
+    /* Styling for the menu icon */
+    .menuicon {
+      margin-left: 5px;
+      margin-top: 5px;
+      cursor: pointer;
+      width: 15px;
+      height: 10px;
+      margin-top: 0px;
+    }
+    
+    .add {
+      width: 20px;
+      height: 20px;
+      /* margin-top: 10px; */
+      margin-left: 10px;
+      margin-right: 10px;
+      /* border: 1px solid blue; */
+      border-radius: 10px;
+      background-color:#5684F0;
+      position: relative;
+    }
+    
+    .iadd {
+      width: 10px;
+      height: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* background-color: aliceblue; */
+    }
+    
+    .addicon {
+      width: 15px;
+      height: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+  
+    
+    .right-nav {
+      display: flex;
+      /* align-items: right; */
+      /* margin-left: auto; */
+      margin-left: 10px;
+      /* background-color: yellow; */
+    }
+    
+    .round-pos {
+      display: inline-block;
+      /* border: 1px solid black; */
+      border-radius: 50%;
+      padding: 10px;
+      background-color: #5684F0;
+      margin-right: 2px;
+    }
+    
+    .full-screen {
+      width: 10px;
+      height: 10px;
+    }
+  
+    .arrow-down{
+      width: 5px;
+      height: 5px;
+    
+    }
+    .left-container{
+      display: none;
+    }
+  }

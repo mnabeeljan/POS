@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar Code -->
+        <div class="header">
+            <div class="navbar">
+                <img src="./icons/pos.png" alt="" class="posicon">
+                <p class="nav-text">POS</p>
+                <img src="./icons/menu-bar.png" alt="" class="menuicon">
+                <div class="add">
+                    <div class="iadd">
+                        <img src="./icons/add.png" alt="" class="addicon">
+                    </div>
+                </div>
+                <p class="nav-text">Dashboard</p>
+                <div class="right-nav">
+                    <p class="nav-text round-pos">POS</p>
+                    <img src="./icons/full-screen.png" alt="" class="full-screen">
+                    <img src="./icons/pos.png" alt="" class="posicon">
+                    <p>Infy POS</p>
+                    <img src="./icons/arrow-down-sign-to-navigate.png" alt="" class="arrow-down">
+                </div>
+            </div>
+        </div>
+
+        <!-- Body Code -->
+        <div class="parent-container">
+            <div class="left-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <!-- <ul class="menu-items-list">
+                    <li>
+                        <img src="./icons/speedometer.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Dashboard</p>
+                    </li>
+                    <li>
+                        <img src="./icons/product.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Products</p>
+                    </li>
+                    <li>
+                        <img src="./icons/equalizer.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Adjustment</p>
+                    </li>
+                    <li>
+                        <img src="./icons/paper.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Quotations</p>
+                    </li>
+                    
+                </ul> -->
+                <div class="menu-item-container">
+                    <img src="./icons/speedometer.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Dashboard</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/product.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Products</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/equalizer.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Adjustment</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/shopping.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Purchases</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/paper.png" alt="" class="menu-item-icon">
+                        <p class="menu-item">Quotations</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/poor.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Sales</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/money.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Transfers</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/svg.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Expenses</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/people.png" class="menu-item-icon">
+                    <p class="menu-item">Peoples</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/star.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Rates/Permissions</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/warehouse.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Warehouse</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/report.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Reports</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/currencies.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Currencies</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/language.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Languages</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/layout.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Templates</p>
+                </div>
+                <div class="menu-item-container">
+                    <img src="./icons/metal-gear.png" alt="" class="menu-item-icon">
+                    <p class="menu-item">Settings</p>
+                </div>
+
+                <!-- Add other card-style menu items here -->
+            </div>
+
+
+            <div class="right-container">
+                <!-- Metric cards -->
+                <div class="metric-card sales cards">
+                    <p class="metric">$76.8M</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Sales</p>
+                </div>
+                <div class="metric-card purchases cards">
+                    <p class="metric">$332.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Purchases</p>
+                </div>
+                <div class="metric-card sales returns cards ">
+                    <p class="metric">$332.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Sales Returns</p>
+                </div>
+                <div class="metric-card purchases-returns cards">
+                    <p class="metric">$772.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Purchases Returns</p>
+                </div>  
+                <div class="metric-card today total-sales cards">
+                    <p class="metric">$66.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Today Total Sales</p>
+                </div>
+                <div class="metric-card sales-rec cards">
+                    <p class="metric">$24.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Today Total Received (Sales)</p>
+                </div>
+                <div class="metric-card today total-purchases cards">
+                    <p class="metric">$279.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Today Total Purchases</p>
+                </div>
+                <div class="metric-card today total-expense cards">
+                    <p class="metric">$0.8k</p>
+                    <p class="currency">USD</p>
+                    <p class="label">Today Total Expense</p>
+                </div>
+
+                <!-- Add other dashboard elements here -->
+                <img src="./images/char1image.png" class="img1" alt="">
+                <img src="./images/char2img.png" class="img2" alt="">
+
+                <div class="recent-sales-container">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Reference</th>
+                          <th>Customer</th>
+                          <th>Status</th>
+                          <th>Grand Total</th>
+                          <th>Paid</th>
+                          <th>Due</th>
+                          <th>Payments Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>SA_11118181</td>
+                          <td>Vishal Ribdiya</td>
+                          <td>Received</td>
+                          <td>$5.00</td>
+                          <td>$5.00</td>
+                          <td>$00</td>
+                          <td>Paid</td>
+                        </tr>
+                        <tr>
+                          <td>SA_11118180</td>
+                          <td>Vishal Ribdiya</td>
+                          <td>Received</td>
+                          <td>$200.00</td>
+                          <td>$200.00</td>
+                          <td>$00</td>
+                          <td>Paid</td>
+                        </tr>
+                        <tr>
+                          <td>SA_11118179</td>
+                          <td>Tedt</td>
+                          <td>Received</td>
+                          <td>$1400.00</td>
+                          <td>$1400.00</td>
+                          <td>$00</td>
+                          <td>Paid</td>
+                        </tr>
+                        <tr>
+                          <td>SA_11118178</td>
+                          <td>Vishal Ribdiya</td>
+                          <td>Received</td>
+                          <td>$455.00</td>
+                          <td>$455.00</td>
+                          <td>$00</td>
+                          <td>Paid</td>
+                        </tr>
+                        <tr>
+                          <td>SA_11118177</td>
+                          <td>Vishal Ribdiya</td>
+                          <td>Received</td>
+                          <td>$2185.79</td>
+                          <td>$2185.79</td>
+                          <td>$00</td>
+                          <td>Paid</td>
+                        </tr>
+                        <!-- Add more rows here -->
+                      </tbody>
+                    </table>
+                  </div>
+                
+        </div> 
+                
+    </div>
+            
+        </div>
+    </div>
+</body>
+</html>
